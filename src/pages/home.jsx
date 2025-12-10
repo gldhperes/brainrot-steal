@@ -112,8 +112,8 @@ export default function Home() {
                 >
                   <img
                     src={currentBrainrot.image}
-                    alt={`${currentBrainrot.name} - Brainrot meme popular`}
-                    loading="lazy"
+                    alt={`${currentBrainrot.name}`}
+                    // loading="lazy"
                   />
                   <div className="image-overlay" />
                 </div>
