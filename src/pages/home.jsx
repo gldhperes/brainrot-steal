@@ -2,8 +2,6 @@ import { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import brainrots from '../settings/brainrots';
 
-// Components
-import AdSlot from '../components/AdSlot';
 
 
 export default function Home() {
@@ -64,20 +62,6 @@ export default function Home() {
       <div className="container">
         {/* Main Layout with Ads */}
         <div className="layout-wrapper">
-
-          {/* Left Ad - Desktop Only */}
-          <div className="ad-sidebar left">
-            {/* <div className="ad-space">
-              <span>Anúncio</span>
-              <span style={{ fontSize: '10px' }}>160x600</span>
-            </div> */}
-
-            <AdSlot
-              adClient="ca-pub-3940256099942544"
-              adSlot="6300978111"
-              style={{ display: "block", width: 160, height: 600 }}
-            />
-          </div>
 
           {/* Main Content */}
           <main
@@ -176,30 +160,10 @@ export default function Home() {
             </p>
           </main>
 
-          {/* Right Ad - Desktop Only */}
-          <div className="ad-sidebar right">
-            {/* <div className="ad-space">
-              <span>Anúncio</span>
-              <span style={{ fontSize: '10px' }}>160x600</span>
-            </div> */}
-
-
-            <AdSlot
-              adClient="ca-pub-3940256099942544"
-              adSlot="6300978111"
-              style={{ display: "block", width: 160, height: 600 }}
-            />
-          </div>
         </div>
 
         {/* Footer */}
         <footer>
-          {/* Mobile Ad */}
-          <div className="mobile-ad">
-            <div className="ad-space">
-              <span>Anúncio Mobile - 320x100</span>
-            </div>
-          </div>
 
           {/* Credits */}
           <div className="credits">
