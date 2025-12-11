@@ -16,7 +16,7 @@ const brainrots = [
         image: bailerina,
     },
     {
-        name: "Bananini ",
+        name: "Chimpanzini Bananini ",
         image: bananini,
     },
     {
